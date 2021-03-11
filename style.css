@@ -1,0 +1,54 @@
+.main-container {
+    background-position: center; 
+    /* background-image: image("https://i.pinimg.com/736x/5a/38/e5/5a38e5f7a2b12a94ef19cde54a14b243.jpg") */
+    background-image: url("image/the\ fire\ oven.jpg");
+    /* margin:-10px; */
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:relative;
+    
+}
+
+.navbar a{
+    height: 35px;
+    /* color:red; */
+    text-decoration: none;
+    display: flex; 
+    flex-direction:row;
+    justify-content: space-around;
+    text-align:center;
+    color:black;
+
+} 
+.navbar {
+    display: flex; 
+    flex-direction:row;
+    justify-content: space-around;
+    text-decoration-line: none;  
+    background-color:gray;  
+}
+.navbar :hover {
+    background-color:whitesmoke;
+}
+.our-menu {
+ color:white
+}
+.small img {
+    height:200px;
+    overflow: hidden;
+    
+ 
+}
+.image {
+    height:100px;
+    width:100px;
+}
+.w3-tag  {
+    color: white;
+    
+}
+body {
+    background-color: peachpuff;
+}

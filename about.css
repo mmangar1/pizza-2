@@ -1,0 +1,38 @@
+body{
+    background-color: peachpuff;
+}
+.about-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:gray;
+    margin:20px;
+    padding: 15px;
+
+    
+    
+}
+.about-navbar a{
+    text-decoration-line: none;
+    background-color: none;
+    text-decoration: none;
+    color:black;
+}
+.about-navbar :hover{
+    background-color: whitesmoke;
+  }
+.small img {
+    height:200px;
+ 
+}
+.image {
+    height:100px;
+    width:100px;
+}
+.w3-tag  {
+    color: white;
+}
+.imagr1 {
+    height: 50px;
+    
+}

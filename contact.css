@@ -1,0 +1,52 @@
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: peachpuff;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+.contact-navbar {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          background-color:gray;
+          margin:20px;
+          padding:15px;
+         
+          
+      }
+.contact-navbar a {
+  text-decoration-line: none;
+  background-color: none;
+  text-decoration: none;
+  color:black;
+}
+.contact-navbar :hover{
+  background-color: whitesmoke;
+}
+
+div.box {
+  align-items: center;
+  justify-items: center;
+  font-weight:bold;
+  box-sizing:border-box;
+  float:right; 
+  overflow: hidden;
+  border:15px solid magents;
+  margin: 10px;
+  padding:20px;
+  width:150px;
+  height:150px;
+  background-color:gray;
+  color: white;
+  font-size:60;
+  text-align: center;
+  padding-top:10px;
+}
+div.submit {
+float:inline-end
+ 
+}
+      
